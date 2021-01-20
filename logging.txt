@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "sandy",
+    "phone_number": 112244365,
+    "address": "hindi",
+    "website": "ssa.com",
+    "language": "wakad",
+    "location": {
+        "lat": 22.22,
+        "lng": 33.33
+    },
+    "types": [
+        "frfefecfv",
+        "frfefredccdvffecfv"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Mon, 18 Jan 2021 16:25:12 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f9776be0709d4f1602f5feb43a2fef34",
+    "scope": "APP",
+    "reference": "c02e5202a82e8bf66f605508fade2083c02e5202a82e8bf66f605508fade2083",
+    "id": "c02e5202a82e8bf66f605508fade2083"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f9776be0709d4f1602f5feb43a2fef34
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f9776be0709d4f1602f5feb43a2fef34
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 18 Jan 2021 16:25:15 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 207
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "22.22",
+        "longitude": "33.33"
+    },
+    "accuracy": "50",
+    "name": "sandy",
+    "phone_number": "112244365",
+    "address": "hindi",
+    "types": "frfefecfv,frfefredccdvffecfv",
+    "website": "ssa.com",
+    "language": "wakad"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "f9776be0709d4f1602f5feb43a2fef34"
+}
+HTTP/1.1 200 OK
+Date: Mon, 18 Jan 2021 16:25:17 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
